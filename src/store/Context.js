@@ -6,8 +6,6 @@ import coverImage from '../images/collage.png'
 
 import compromiso from '../images/compromiso.jpg'
 import maps from '../images/map.png'
-import voiceqna_filled from '../images/voiceqna_fill_v2_gradient.png'
-import voicemirror_filled from '../images/voice_mirror_v_1024.png'
 import bazipaipai_unfilled from '../images/bazipaipai_64.png'
 import spindrifthome_filled from '../images/sh_unfill_1024.png'
 
@@ -16,7 +14,6 @@ import collage2 from '../images/collage2.png'
 import collage3 from '../images/collage3.png'
 import purple_phones from '../images/purple_phones.png'
 import purple_light from '../images/purple_light.jpg'
-import concert_classic from '../images/concert_classic.jpg'
 
 import discordImage from '../images/discord.png'
 
@@ -41,18 +38,7 @@ export const initialState = {
             titleColor: `orangeRed`,
             image: maps,
         },  
-        {
-            title: `VoiceQnA: Speak a New Language`,
-            titleColor: `forestGreen`,
-            image: voiceqna_filled,
-            URL: `https://voiceqna.com`,
-        },
-        {
-            title: `VoiceMirror: Travel Translator`,
-            titleColor: `blue`,
-            image: voicemirror_filled,
-            URL: `https://voiceqna.com/mirror`,
-        },
+        
         {
             title: `BaZiPaiPai: Know Your Destiny`,
             titleColor: `black`,
